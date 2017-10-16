@@ -7,7 +7,7 @@
       <h2 class="login-h2">你注册时的密码是？</h2>
       <input type="password" class="reg-input" v-model="password">
       <button class="center btn btn-white" @click="_login()">登录</button>
-      <span class="center">忘记密码点这里</span>
+      <router-link tag="span" to="/forgot" class="center">忘记密码点这里</router-link>
     </div>
   </div>
 </template>

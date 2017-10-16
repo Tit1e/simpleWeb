@@ -156,7 +156,7 @@ class IndexController extends Controller {
                     $this->ajaxReturn(array('code'=>0,'msg'=>'注册失败,你的邮箱已被使用'));
                 }else{
                     M('user')->add($data);
-                    $this->ajaxReturn(array('code'=>1,'msg'=>'注册成功','data'=>$data));
+                    $this->ajaxReturn(array('code'=>1,'msg'=>'注册成功'));
                 }
             }else{
                     $this->ajaxReturn(array('code'=>-1,'msg'=>'你是不是填错了什么？'));
@@ -180,8 +180,8 @@ class IndexController extends Controller {
             }
         }
     }
-    //注册验证邮箱
-    public function checkEmail(){
+    //验证注册邮箱
+    public function checkMail(){
         if(IS_POST){
             $email = I('email');
             $where['email']=$email;

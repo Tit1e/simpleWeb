@@ -3,14 +3,12 @@ import Router from 'vue-router'
 import Home from '@/components/home/home'
 import Article from '@/components/home/article'
 import Registered from '@/components/registered/registered'
-import Username from '@/components/registered/username'
-import Email from '@/components/registered/email'
-import Password from '@/components/registered/password'
 import Login from '@/components/login/login'
 import Index from '@/components/index/index'
 import Adddymnamic from '@/components/add/Adddynamic'
 import Person from '@/components/person/person'
 import Center from '@/components/center/center'
+import Forgot from '@/components/forgot/forgot'
 
 Vue.use(Router)
 
@@ -30,25 +28,7 @@ export default new Router({
     },
     {
       path: '/registered',
-      component: Registered,
-      children: [
-        {
-          path: '/',
-          redirect: '/registered/username'
-        },
-        {
-          path: '/registered/username',
-          component: Username
-        },
-        {
-          path: '/registered/email',
-          component: Email
-        },
-        {
-          path: '/registered/password',
-          component: Password
-        }
-      ]
+      component: Registered
     },
     {
       path: '/login',
@@ -69,6 +49,10 @@ export default new Router({
     {
       path: '/center',
       component: Center
+    },
+    {
+      path: '/forgot',
+      component: Forgot
     }
   ]
 })

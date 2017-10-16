@@ -1,6 +1,6 @@
 <template>
   <div class="item">
-    <router-link tag="div" :to="'/person/id/' + list.user_id" class="list" v-for="(list,index) in Lists">
+    <router-link tag="div" :to="'/person/id/' + list.user_id" class="list" v-for="(list,index) in Lists" :key="list.dynamic_id">
         <div class="name">
           {{ list.nick_name }}
           <div class="time">

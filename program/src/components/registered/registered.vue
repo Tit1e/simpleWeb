@@ -4,7 +4,7 @@
     <div v-if="UserName">
       <h2 class="reg-h2">你好，你想我怎么称呼你？</h2>
       <input type="text" class="reg-input" v-model="username">
-      <span class="reg-tip">昵称不能为空并且长度不能超过6位</span>
+      <span class="reg-tip" v-if="username.length > 6 || !username">昵称不能为空并且长度不能超过6位</span>
     </div>
     <div v-if="Email">
       <h2 class="reg-h2">你的邮箱是？</h2>
@@ -21,15 +21,20 @@
       <button ref="next" class="btn btn-black reg-btn-right" v-if="!Password" @click="_next()">下一步</button>
       <button ref="register" class="btn btn-black reg-btn-right" v-if="Password" @click="_register()">注册</button>
     </div>
+    <transition name="fade">
+      <msg v-bind:msg="msg" v-if="msg" v-on:HideMsg="_hideMsg"></msg>
+    </transition>
   </div>
 </template>
 <script>
 import Top from '@/components/common/top'
+import Msg from '@/components/msg/msg'
 import axios from 'axios'
 import qs from 'qs'
 export default {
   components: {
-    Top
+    Top,
+    Msg
   },
   data () {
     return {
@@ -41,8 +46,9 @@ export default {
       username: '',
       email: '',
       password: '',
-      passwordAgain: ''
-
+      passwordAgain: '',
+      msg: '',
+      mailReg: /^([a-zA-Z0-9_-])+@([a-zA-Z0-9_-])+(.[a-zA-Z0-9_-])+/
     }
   },
   methods: {
@@ -74,15 +80,35 @@ export default {
       this._whichShow(this.step)
     },
     _register: function () {
-      if (this.password === this.passwordAgain) {
-        axios.post('index.php/Home/Index/registeredUser', qs.stringify({ 'nick_name': this.username, 'email': this.email, 'password': this.password, 'password_again': this.passwordAgain }))
-        .then(res => {
-          console.log(res)
-        })
-        .catch(() => {
-          console.log('网络错误')
-        })
+      if (this.username.length > 6 || !this.username) {
+        this.msg = '请仔细阅读昵称规则哦'
+        return false
       }
+      if (!this.mailReg.test(this.email)) {
+        this.msg = '邮箱格式不正确哦'
+        return false
+      }
+      if (this.password !== this.passwordAgain) {
+        this.msg = '两次输入的密码不一样哦'
+        return false
+      }
+      axios.post('index.php/Home/Index/registeredUser', qs.stringify({ 'nick_name': this.username, 'email': this.email, 'password': this.password, 'password_again': this.passwordAgain }))
+      .then(res => {
+        if (res.data.code === 1) {
+          this.msg = res.data.msg
+          setTimeout(() => {
+            this.$router.push({ path: '/login' })
+          }, 2000)
+        } else if (res.data.code === 0) {
+          this.msg = res.data.msg
+        }
+      })
+      .catch(() => {
+        this.msg = '网络错误'
+      })
+    },
+    _hideMsg: function () {
+      this.msg = ''
     }
   }
 }
@@ -97,6 +123,13 @@ export default {
     left: 0;
     right: 0;
   }
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0
 }
 
 .slide-left-enter,

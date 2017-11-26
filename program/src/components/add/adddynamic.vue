@@ -6,45 +6,52 @@
     <div class="sent_button">
       <button type="button" class="btn btn-black center" @click="_issueDynamic()">发布</button>
     </div>
-    <p>{{ tip }}</p>
+    <transition name="fade">
+      <msg v-bind:msg="msg" v-if="msg" v-on:HideMsg="_hideMsg"></msg>
+    </transition>
   </div>
 </template>
 <script>
 import Top from '@/components/common/top'
 import ItemShow from '@/components/common/itemshow'
+import Msg from '@/components/msg/msg'
 import axios from 'axios'
 import qs from 'qs'
 export default {
   components: {
     Top,
-    ItemShow
+    ItemShow,
+    Msg
   },
   data () {
     return {
       dynamic: '',
       userInfo: {},
-      tip: ''
+      msg: ''
     }
   },
   methods: {
     _issueDynamic: function () {
-      if (this.dynamic) {
-        axios.post('index.php/Home/Index/release', qs.stringify({ 'content': this.dynamic }))
-        .then(res => {
-          if (res.data.code === 1) {
-            this.$router.push({path: '/index'})
-          } else if (res.data.code === 0) {
-            this.tip = res.data.msg
-          } else if (res.data.code === -1) {
-            this.$router.push({path: '/login'})
-          }
-        })
-        .catch(() => {
-          this.tip = '服务器好像出了点问题呢'
-        })
-      } else {
-        this.tip = '发布内容不能为空'
+      if (!this.dynamic) {
+        this.msg = '发布内容不能为空'
+        return false
       }
+      axios.post('index.php/Home/Index/release', qs.stringify({ 'content': this.dynamic }))
+      .then(res => {
+        if (res.data.code === 1) {
+          location.reload()
+        } else if (res.data.code === 0) {
+          this.msg = res.data.msg
+        } else if (res.data.code === -1) {
+          this.$router.push({path: '/login'})
+        }
+      })
+      .catch(() => {
+        this.msg = '服务器好像出了点问题呢'
+      })
+    },
+    _hideMsg: function () {
+      this.msg = ''
     }
   }
 }
@@ -70,5 +77,12 @@ export default {
     font-weight: bold;
     margin-top: 0.4rem;
   }
+}
+
+.fade-enter-active, .fade-leave-active {
+  transition: opacity .5s
+}
+.fade-enter, .fade-leave-to {
+  opacity: 0
 }
 </style>

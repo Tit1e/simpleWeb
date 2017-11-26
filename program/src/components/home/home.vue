@@ -5,7 +5,7 @@
     <br>
     <h1 class="h1" @click="_showArticle()">陋网</h1>
     <p>这是一个非常简陋的网站</p>
-    <router-link tag="button" to="/registered/username" type="button" class=" btn btn-black center bold">注册</router-link>
+    <router-link tag="button" to="/registered" type="button" class=" btn btn-black center bold">注册</router-link>
     <router-link tag="button" to="/login"  type="button" class=" btn btn-white center bold">登录</router-link>
     <router-link tag="p" id="toIndex" to="/index" class="center">我只是想来看看</router-link>
   </div>

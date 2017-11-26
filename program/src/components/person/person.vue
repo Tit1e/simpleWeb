@@ -60,7 +60,6 @@ export default {
       })
     },
     _nextPage: function () {
-      console.log(1)
       this.page++
       this._getPerson(this.page)
     }

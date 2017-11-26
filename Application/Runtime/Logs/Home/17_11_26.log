@@ -1,0 +1,1045 @@
+[ 2017-11-26T10:14:30+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000041s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003346s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002608s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002707s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0387s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '11' LIMIT 1   [ RunTime:0.0127s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '11' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '11' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-11-26T10:14:31+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000794s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000926s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0187s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '11' LIMIT 1   [ RunTime:0.0012s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '11' LIMIT 1   [ RunTime:0.0015s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '11' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-11-26T10:16:00+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.016727s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001829s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001924s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001013s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025437s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025492s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000946s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000998s ]
+
+[ 2017-11-26T10:29:27+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001592s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000688s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000728s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000543s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000593s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009904s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000469s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000726s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000763s ]
+
+[ 2017-11-26T10:29:42+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000356s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000686s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000823s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0076s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0031s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:30:45+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000341s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000594s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000647s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T10:31:04+08:00 ] ::1 /index.php/Home/Index/checkMail
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000444s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:35:47+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000665s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000062s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000109s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009102s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001508s ]
+
+[ 2017-11-26T10:35:50+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000929s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:35:53+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000280s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000404s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T10:36:48+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000724s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007357s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000404s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000718s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000759s ]
+
+[ 2017-11-26T10:36:51+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000432s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000679s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000736s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:36:54+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000405s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0007s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-11-26T10:37:56+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000021s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000454s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000552s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000614s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005494s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005545s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000486s ]
+
+[ 2017-11-26T10:37:59+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000647s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000529s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0034s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0006s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-11-26T10:38:03+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000391s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:38:07+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000465s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T10:38:10+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000276s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000403s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:39:39+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000352s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T10:39:42+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T10:40:34+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004476s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004544s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000214s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000606s ]
+
+[ 2017-11-26T10:40:37+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000348s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000628s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000287s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007083s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007184s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000372s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000508s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000498s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000534s ]
+
+[ 2017-11-26T10:41:02+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000456s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000611s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0021s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:41:05+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000406s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:41:05+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000294s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0024s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-11-26T10:41:08+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000361s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-11-26T10:41:10+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001081s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001080s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001154s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2017-11-26T10:41:11+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000483s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000470s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2017-11-26T10:41:12+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000298s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000563s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-11-26T10:42:31+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000577s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007077s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007119s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000681s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000722s ]
+
+[ 2017-11-26T10:42:48+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000289s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000375s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000408s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:42:49+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000689s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000733s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000811s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:42:49+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000272s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000361s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:42:53+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000329s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000514s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000568s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T10:48:57+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000418s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000435s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000057s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006391s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006433s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000188s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000478s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000509s ]
+
+[ 2017-11-26T11:00:18+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000544s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000690s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000064s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004979s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005018s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000402s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000683s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000719s ]
+
+[ 2017-11-26T11:00:25+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000044s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000709s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0019s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '121' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '121' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '121' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T11:00:38+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000439s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0028s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T11:01:22+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000409s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T11:01:22+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000347s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000526s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T11:01:23+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0056s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T11:01:23+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000387s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000566s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000632s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0027s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T11:01:23+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000626s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0026s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T11:01:24+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000548s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000597s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0039s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0014s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T11:02:57+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000839s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000732s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000783s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007759s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007799s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000748s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000786s ]
+
+[ 2017-11-26T11:03:06+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000297s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000410s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T11:03:12+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000389s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000421s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0043s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T11:05:47+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000357s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000133s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007650s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007704s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000322s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000677s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000715s ]
+
+[ 2017-11-26T11:06:02+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000385s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000418s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0030s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2017-11-26T11:09:04+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000428s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000465s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-11-26T11:09:11+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000279s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000445s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0031s ]
+SQL: SELECT * FROM `user` WHERE `email` = '' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-11-26T11:13:26+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000662s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000698s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000106s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008675s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000540s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000937s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-11-26T11:14:59+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0018s ]
+SQL: SELECT * FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2017-11-26T11:18:03+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000026s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000059s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000134s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009012s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009110s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000699s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000754s ]
+
+[ 2017-11-26T11:18:39+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000738s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000820s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `user` WHERE `email` = '71914965@qq.com' LIMIT 1   [ RunTime:0.0007s ]
+SQL: INSERT INTO `user` (`nick_name`,`email`,`password`,`create_time`) VALUES ('123456','71914965@qq.com','e10adc3949ba59abbe56e057f20f883e','1511666319') [ RunTime:0.0092s ]
+
+[ 2017-11-26T11:19:49+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001566s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000079s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000208s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009655s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009715s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000246s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000285s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001062s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2017-11-26T11:20:06+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000427s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000817s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000939s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0036s ]
+SQL: SELECT * FROM `user` WHERE `email` = '1@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: INSERT INTO `user` (`nick_name`,`email`,`password`,`create_time`) VALUES ('123','1@qq.com','e10adc3949ba59abbe56e057f20f883e','1511666406') [ RunTime:0.0010s ]
+
+[ 2017-11-26T11:21:02+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000711s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000107s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011788s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011832s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000390s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000735s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000776s ]
+
+[ 2017-11-26T11:21:18+08:00 ] ::1 /index.php/Home/Index/registeredUser
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000740s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000752s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000831s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0029s ]
+SQL: SELECT * FROM `user` WHERE `email` = '2@qq.com' LIMIT 1   [ RunTime:0.0006s ]
+SQL: INSERT INTO `user` (`nick_name`,`email`,`password`,`create_time`) VALUES ('12323','2@qq.com','e10adc3949ba59abbe56e057f20f883e','1511666478') [ RunTime:0.0011s ]
+
+[ 2017-11-26T11:22:24+08:00 ] ::1 /index.php/Home/Index/loginAuthentication
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000666s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000880s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000967s ]
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0037s ]
+SQL: SELECT `user_id`,`nick_name`,`email` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT `create_time` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+SQL: SELECT `password` FROM `user` WHERE `email` = '719149964@qq.com' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2017-11-26T11:22:24+08:00 ] ::1 /index.php/Home/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000027s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000713s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000633s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000704s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0090s ]
+SQL: SELECT `nick_name`,`content`,`dy_create_time`,dynamic.user_id,`dynamic_id`,`dy_pic` FROM `dynamic` INNER JOIN user ON dynamic.user_id = user.user_id  ORDER BY dy_create_time desc LIMIT 0,10   [ RunTime:0.0055s ]
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+
+[ 2017-11-26T11:26:03+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000787s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000976s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009433s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009526s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001094s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001146s ]
+
+[ 2017-11-26T11:26:04+08:00 ] ::1 /index.php/Home/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001046s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000720s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000801s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0026s ]
+SQL: SELECT `nick_name`,`content`,`dy_create_time`,dynamic.user_id,`dynamic_id`,`dy_pic` FROM `dynamic` INNER JOIN user ON dynamic.user_id = user.user_id  ORDER BY dy_create_time desc LIMIT 0,10   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+
+[ 2017-11-26T11:31:17+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001124s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000114s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009987s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010032s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000441s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000781s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000822s ]
+
+[ 2017-11-26T11:31:17+08:00 ] ::1 /index.php/Home/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000314s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0023s ]
+SQL: SELECT `nick_name`,`content`,`dy_create_time`,dynamic.user_id,`dynamic_id`,`dy_pic` FROM `dynamic` INNER JOIN user ON dynamic.user_id = user.user_id  ORDER BY dy_create_time desc LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+
+[ 2017-11-26T11:31:45+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000731s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000803s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000103s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005640s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000568s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000627s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000749s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000806s ]
+
+[ 2017-11-26T11:31:46+08:00 ] ::1 /index.php/Home/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000457s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000596s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000655s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0035s ]
+SQL: SELECT `nick_name`,`content`,`dy_create_time`,dynamic.user_id,`dynamic_id`,`dy_pic` FROM `dynamic` INNER JOIN user ON dynamic.user_id = user.user_id  ORDER BY dy_create_time desc LIMIT 0,10   [ RunTime:0.0008s ]
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+
+[ 2017-11-26T11:31:53+08:00 ] ::1 /index.php/Home/Index/release
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000503s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000551s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0044s ]
+SQL: INSERT INTO `dynamic` (`user_id`,`content`,`dy_create_time`) VALUES ('3','hahhahahahaa','1511667113') [ RunTime:0.0020s ]
+
+[ 2017-11-26T11:31:53+08:00 ] ::1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002716s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000833s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000927s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000089s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006601s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000350s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000413s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000737s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000866s ]
+
+[ 2017-11-26T11:31:54+08:00 ] ::1 /index.php/Home/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000559s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001819s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001966s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0081s ]
+SQL: SELECT `nick_name`,`content`,`dy_create_time`,dynamic.user_id,`dynamic_id`,`dy_pic` FROM `dynamic` INNER JOIN user ON dynamic.user_id = user.user_id  ORDER BY dy_create_time desc LIMIT 0,10   [ RunTime:0.0009s ]
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+
+[ 2017-11-26T11:32:00+08:00 ] ::1 /index.php/Home/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000334s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001507s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0047s ]
+SQL: SELECT `nick_name`,`content`,`dy_create_time`,dynamic.user_id,`dynamic_id`,`dy_pic` FROM `dynamic` INNER JOIN user ON dynamic.user_id = user.user_id  ORDER BY dy_create_time desc LIMIT 10,10   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+
+[ 2017-11-26T11:32:02+08:00 ] ::1 /index.php/Home/Index/getList
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `dynamic` [ RunTime:0.0044s ]
+SQL: SELECT `nick_name`,`content`,`dy_create_time`,dynamic.user_id,`dynamic_id`,`dy_pic` FROM `dynamic` INNER JOIN user ON dynamic.user_id = user.user_id  ORDER BY dy_create_time desc LIMIT 20,10   [ RunTime:0.0020s ]
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+NOTIC: [8] Undefined index: time /Users/tit1e/Public/GitRepositories/simpleWeb/Application/Home/Controller/IndexController.class.php 第 130 行.
+

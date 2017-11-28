@@ -13,8 +13,8 @@
       border-radius: 3px;
       padding: .15rem .3rem;
       font-size: 14px;
-      position: fixed;
       bottom: 100px;
+      position: fixed;
       left: 50%;
       transform: translateX(-50%);
     }

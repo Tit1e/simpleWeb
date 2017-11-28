@@ -35,6 +35,11 @@ export default {
   created () {
     this._getPerson(this.page)
   },
+  watch: {
+    '$route' (to, from) {
+      this._getPerson(this.page)
+    }
+  },
   methods: {
     _getPerson: function (page) {
       if (this.isAllData) {
